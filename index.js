@@ -58,7 +58,7 @@ instaProfileImage.image = source => {
 
 instaProfileImage.video = source => {
 	if (typeof source !== 'string') {
-		throw new TypeError(`Epxected a string, got ${typeof source}`);
+		throw new TypeError(`Expected a string, got ${typeof source}`);
 	}
 
 	const url = source.split('?')[0];
